@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -x
+
+##########################################################################################
+# PARENT DIRECTORY
+# code copied from Tomcat's `catalina.sh`
+##########################################################################################
+# resolve links - $0 may be a softlink
+PRG="$0"
+
+while [ -h "$PRG" ]; do
+  ls=`ls -ld "$PRG"`
+  link=`expr "$ls" : '.*-> \(.*\)$'`
+  if expr "$link" : '/.*' > /dev/null; then
+    PRG="$link"
+  else
+    PRG=`dirname "$PRG"`/"$link"
+  fi
+done
+
+# Get standard environment variables
+PRGDIR=`dirname "$PRG"`
+
+
+./run-adaptive-cli delete aggregations traces_service_graph_request_client_seconds_bucket traces_service_graph_request_client_seconds_count traces_service_graph_request_client_seconds_sum traces_service_graph_request_failed_total traces_service_graph_request_server_seconds_bucket traces_service_graph_request_server_seconds_count traces_service_graph_request_server_seconds_sum traces_service_graph_request_total traces_spanmetrics_calls_total traces_spanmetrics_latency_bucket traces_spanmetrics_latency_count traces_spanmetrics_latency_sum traces_spanmetrics_size_total traces_target_info

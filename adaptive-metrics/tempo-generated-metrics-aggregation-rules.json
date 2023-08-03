@@ -1,0 +1,128 @@
+[
+    {
+      "metric": "traces_service_graph_request_client_seconds_bucket",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_client_seconds_count",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_client_seconds_sum",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_failed_total",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_server_seconds_bucket",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_server_seconds_count",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_server_seconds_sum",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_service_graph_request_total",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_spanmetrics_calls_total",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_spanmetrics_latency_bucket",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_spanmetrics_latency_count",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_spanmetrics_latency_sum",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_spanmetrics_size_total",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    },
+    {
+      "metric": "traces_target_info",
+      "drop_labels": [
+        "__metrics_gen_instance"
+      ],
+      "aggregations": [
+        "sum:counter"
+      ]
+    }
+  ]
